@@ -1,0 +1,42 @@
+CHIP CallAlu {
+
+    IN  A[16],         
+        D[16],
+        M[16],
+        function[7],
+        jumpCode[3];
+        
+    OUT aluOut[16],
+        doJump;      
+        
+    PARTS:
+        // select either A or M[A]    
+    And(a=function[6], b=true, out=Mpointer);
+    And(a=function[5], b=true, out=aluZx);
+    And(a=function[4], b=true, out=aluNx);
+    And(a=function[3], b=true, out=aluZy);
+    And(a=function[2], b=true, out=aluNy);
+    And(a=function[1], b=true, out=aluF);
+    And(a=function[0], b=true, out=aluNo);
+    
+    Mux16(a=A, b=M, sel=Mpointer, out=AorM);
+    
+    // Calculation
+    ALU(x=D, y=AorM,
+        zx=aluZx, nx=aluNx, zy=aluZy, ny=aluNy, f=aluF, no=aluNo,
+        out=aluOut, zr=aluOutZero, ng=aluOutNegative);         
+
+    And(a=jumpCode[02], b=true, out=jumpLT);
+    And(a=jumpCode[01], b=true, out=jumpEQ);
+    And(a=jumpCode[00], b=true, out=jumpGT);           
+   
+    // whether to jump    
+    And(a=jumpLT, b=aluOutNegative, out=ltJumpTrue);
+    And(a=jumpEQ, b=aluOutZero, out=eqJumpTrue);
+    
+    Or(a=aluOutZero, b=aluOutNegative, out=aluOutNotPositive);
+    Not(in=aluOutNotPositive, out=aluOutPositive);
+    And(a=jumpGT, b=aluOutPositive, out=gtJumpTrue);
+    
+    Or8Way(in[0]=ltJumpTrue, in[1]=eqJumpTrue, in[2]=gtJumpTrue, in[3..7]=false, out=doJump);
+}

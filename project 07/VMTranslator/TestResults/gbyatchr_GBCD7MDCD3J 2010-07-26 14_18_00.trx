@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3f71e041-3f8b-4852-ae53-f634745433fb" name="gbyatchr@GBCD7MDCD3J 2010-07-26 14:18:00" runUser="INT\gbyatchr" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="fcbc8474-472a-4921-9a42-a6d13604a151">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\TestResults\gbyatchr_GBCD7MDCD3J 2010-07-26 14_18_00">
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\CodeWriter\bin\Debug\CodeWriter.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\Parser\bin\Debug\Parser.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VM\bin\Debug\VM.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="1" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-07-26T14:18:00.6846749+01:00" queuing="2010-07-26T14:18:01.9190262+01:00" start="2010-07-26T14:18:02.1065226+01:00" finish="2010-07-26T14:18:03.2315010+01:00" />
+  <TestDefinitions>
+    <UnitTest name="TestCommandPush" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 07\translatortests\bin\debug\translatortests.dll" id="a8c4ee52-5146-c2be-b7a5-6db033ba150d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0eb50d70-4428-4045-8510-2bc3cb79e7be" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\TranslatorTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TranslatorTests.UnitTest1, TranslatorTests" name="TestCommandPush" />
+    </UnitTest>
+    <UnitTest name="TestCommandAdd" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 07\translatortests\bin\debug\translatortests.dll" id="c39acf0b-0f18-e1df-bf19-0fefbaa237ec">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7810c95c-eb6d-4793-9595-a82435e03083" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\TranslatorTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TranslatorTests.UnitTest1, TranslatorTests" name="TestCommandAdd" />
+    </UnitTest>
+    <UnitTest name="TestUninitialisedMemoryCommand" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 07\translatortests\bin\debug\translatortests.dll" id="da8fd6c3-2a6c-f2e7-1dd2-1def727d9abf">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="783fdd8e-a962-47a1-acb8-c07270730c5e" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\TranslatorTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TranslatorTests.UnitTest1, TranslatorTests" name="TestUninitialisedMemoryCommand" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a8c4ee52-5146-c2be-b7a5-6db033ba150d" executionId="0eb50d70-4428-4045-8510-2bc3cb79e7be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c39acf0b-0f18-e1df-bf19-0fefbaa237ec" executionId="7810c95c-eb6d-4793-9595-a82435e03083" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da8fd6c3-2a6c-f2e7-1dd2-1def727d9abf" executionId="783fdd8e-a962-47a1-acb8-c07270730c5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0eb50d70-4428-4045-8510-2bc3cb79e7be" testId="a8c4ee52-5146-c2be-b7a5-6db033ba150d" testName="TestCommandPush" computerName="GBCD7MDCD3J" duration="00:00:00.0795703" startTime="2010-07-26T14:18:02.2315202+01:00" endTime="2010-07-26T14:18:03.1221281+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;@8
+D=A
+@SP
+A=M
+M=D
+@SP
+M=M+1
+&gt;. Actual:&lt;@8
+D=A
+@SP
+A=M
+M=D
+@SP
+M=M+1
+&gt;. </Message>
+          <StackTrace>   at TranslatorTests.UnitTest1.TestCommandPush() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\UnitTest1.cs:line 48
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7810c95c-eb6d-4793-9595-a82435e03083" testId="c39acf0b-0f18-e1df-bf19-0fefbaa237ec" testName="TestCommandAdd" computerName="GBCD7MDCD3J" duration="00:00:00.0085156" startTime="2010-07-26T14:18:03.1221281+01:00" endTime="2010-07-26T14:18:03.1377528+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TranslatorTests.UnitTest1.TestCommandAdd threw exception:  System.NotImplementedException: The method or operation is not implemented..</Message>
+          <StackTrace>    at VM.AddCommand.Assembly() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VM\ArithmeticCommands.cs:line 25
+   at TranslatorTests.UnitTest1.TestCommandAdd() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\UnitTest1.cs:line 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="783fdd8e-a962-47a1-acb8-c07270730c5e" testId="da8fd6c3-2a6c-f2e7-1dd2-1def727d9abf" testName="TestUninitialisedMemoryCommand" computerName="GBCD7MDCD3J" duration="00:00:00.0029117" startTime="2010-07-26T14:18:03.1690022+01:00" endTime="2010-07-26T14:18:03.1846269+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

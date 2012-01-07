@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="461da72a-21de-45b3-af1c-aa33ccfacdcf" name="gbyatchr@GBCD7MDCD3J 2010-07-05 14:54:03" runUser="INT\gbyatchr" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="95c38fd3-e296-4607-9f95-4676b0a6d2ca">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\TestResults\gbyatchr_GBCD7MDCD3J 2010-07-05 14_54_03">
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerLib\bin\Debug\AssemblerLib.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-07-05T14:54:03.5363415+01:00" queuing="2010-07-05T14:54:04.8331999+01:00" start="2010-07-05T14:54:05.0050727+01:00" finish="2010-07-05T14:54:07.1300455+01:00" />
+  <TestDefinitions>
+    <UnitTest name="CInstruction" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="4b11b75b-082c-a96c-6ad6-72d9a816aa1e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8c7a5be5-6960-40e0-9cd8-f4bbea15f2f4" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.AssemblerTests, AssemblerTest" name="CInstruction" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4b11b75b-082c-a96c-6ad6-72d9a816aa1e" executionId="8c7a5be5-6960-40e0-9cd8-f4bbea15f2f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8c7a5be5-6960-40e0-9cd8-f4bbea15f2f4" testId="4b11b75b-082c-a96c-6ad6-72d9a816aa1e" testName="CInstruction" computerName="GBCD7MDCD3J" duration="00:00:01.1258048" startTime="2010-07-05T14:54:05.1300711+01:00" endTime="2010-07-05T14:54:07.0831711+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

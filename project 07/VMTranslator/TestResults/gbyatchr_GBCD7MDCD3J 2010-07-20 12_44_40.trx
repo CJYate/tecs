@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="25b75e49-c848-4521-83c9-9afad1eb36dc" name="gbyatchr@GBCD7MDCD3J 2010-07-20 12:44:40" runUser="INT\gbyatchr" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="fcbc8474-472a-4921-9a42-a6d13604a151">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\TestResults\gbyatchr_GBCD7MDCD3J 2010-07-20 12_44_40">
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\CodeWriter\bin\Debug\CodeWriter.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\Parser\bin\Debug\Parser.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VM\bin\Debug\VM.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-07-20T12:44:40.0141173+01:00" queuing="2010-07-20T12:44:44.1390381+01:00" start="2010-07-20T12:44:44.3734086+01:00" finish="2010-07-20T12:44:45.8733798+01:00" />
+  <TestDefinitions>
+    <UnitTest name="TestCommandPush" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 07\translatortests\bin\debug\translatortests.dll" id="a8c4ee52-5146-c2be-b7a5-6db033ba150d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8a037982-4028-4a22-9365-649c1b889308" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\TranslatorTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TranslatorTests.UnitTest1, TranslatorTests" name="TestCommandPush" />
+    </UnitTest>
+    <UnitTest name="TestCommandAdd" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 07\translatortests\bin\debug\translatortests.dll" id="c39acf0b-0f18-e1df-bf19-0fefbaa237ec">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1226c553-f4ac-4dbf-aeab-531bb6033803" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\TranslatorTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TranslatorTests.UnitTest1, TranslatorTests" name="TestCommandAdd" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a8c4ee52-5146-c2be-b7a5-6db033ba150d" executionId="8a037982-4028-4a22-9365-649c1b889308" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c39acf0b-0f18-e1df-bf19-0fefbaa237ec" executionId="1226c553-f4ac-4dbf-aeab-531bb6033803" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8a037982-4028-4a22-9365-649c1b889308" testId="a8c4ee52-5146-c2be-b7a5-6db033ba150d" testName="TestCommandPush" computerName="GBCD7MDCD3J" duration="00:00:00.3778769" startTime="2010-07-20T12:44:44.4359074+01:00" endTime="2010-07-20T12:44:45.7327575+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TranslatorTests.UnitTest1.TestCommandPush threw exception:  System.NotImplementedException: The method or operation is not implemented..</Message>
+          <StackTrace>    at VM.PushCommand.get_Assembly() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VM\MemoryCommand.cs:line 42
+   at TranslatorTests.UnitTest1.TestCommandPush() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\UnitTest1.cs:line 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1226c553-f4ac-4dbf-aeab-531bb6033803" testId="c39acf0b-0f18-e1df-bf19-0fefbaa237ec" testName="TestCommandAdd" computerName="GBCD7MDCD3J" duration="00:00:00.0051563" startTime="2010-07-20T12:44:45.7483822+01:00" endTime="2010-07-20T12:44:45.7483822+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TranslatorTests.UnitTest1.TestCommandAdd threw exception:  System.NotImplementedException: The method or operation is not implemented..</Message>
+          <StackTrace>    at VM.AddCommand.get_Assembly() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VM\ArithmeticCommands.cs:line 25
+   at TranslatorTests.UnitTest1.TestCommandAdd() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\UnitTest1.cs:line 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

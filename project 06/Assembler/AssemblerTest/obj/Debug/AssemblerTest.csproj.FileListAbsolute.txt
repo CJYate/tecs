@@ -1,0 +1,9 @@
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerLib.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerLib.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\obj\Debug\AssemblerTest.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\obj\Debug\AssemblerTest.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerLib_Accessor.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerLib_Accessor.pdb

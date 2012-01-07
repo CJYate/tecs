@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="44db41e8-b697-4366-8d4b-8dd550346914" name="gbyatchr@GBCD7MDCD3J 2010-07-05 14:37:07" runUser="INT\gbyatchr" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="95c38fd3-e296-4607-9f95-4676b0a6d2ca">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\TestResults\gbyatchr_GBCD7MDCD3J 2010-07-05 14_37_07">
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerLib\bin\Debug\AssemblerLib.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="11" executed="2" passed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="9" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="GBCD7MDCD3J" outcome="Error" timestamp="2010-07-05T14:37:27.6740887+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2010-07-05T14:37:07.5962207+01:00" queuing="2010-07-05T14:37:09.2524495+01:00" start="2010-07-05T14:37:09.4243223+01:00" finish="2010-07-05T14:37:27.6740887+01:00" />
+  <TestDefinitions>
+    <UnitTest name="ParseJump" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="f337076f-4e2e-06ce-0e05-eabf6c063124">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="AssemblerLib.dll" />
+      </DeploymentItems>
+      <Execution id="8c0198c0-3bd8-4ddb-ac8b-180de64a9de3" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.CinstructionTest, AssemblerTest" name="ParseJump" />
+    </UnitTest>
+    <UnitTest name="ParseJumpInvalidLongVal" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="7a0f74d5-7aa8-6f11-fdc6-8fef300999de">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="AssemblerLib.dll" />
+      </DeploymentItems>
+      <Execution id="a8ea0388-68ea-4c80-b69e-1d78c827f1ac" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.CinstructionTest, AssemblerTest" name="ParseJumpInvalidLongVal" />
+    </UnitTest>
+    <UnitTest name="ParseComp" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="11204abf-706d-312a-0711-738238b6c64e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="AssemblerLib.dll" />
+      </DeploymentItems>
+      <Execution id="22270f4f-061f-4c13-a9f1-22d5658825ba" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.CinstructionTest, AssemblerTest" name="ParseComp" />
+    </UnitTest>
+    <UnitTest name="ParseDestTest" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="dd6dad73-eac6-aaf9-83ef-a924092e07de">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="AssemblerLib.dll" />
+      </DeploymentItems>
+      <Execution id="1e024c2f-84f8-4c5a-a51f-ab5025468b9e" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.CinstructionTest, AssemblerTest" name="ParseDestTest" />
+    </UnitTest>
+    <UnitTest name="AInstruction" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="24fe5760-225c-4cd3-9876-b5cb10f101dc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="afa80e31-63d0-4d26-b812-f9ae29b07bfc" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.AssemblerTests, AssemblerTest" name="AInstruction" />
+    </UnitTest>
+    <UnitTest name="ParseDestInvalidValLowercase" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="95405022-f83d-f9a8-744e-236e37904cac">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="AssemblerLib.dll" />
+      </DeploymentItems>
+      <Execution id="8ccb5203-3b5e-40f4-85d1-ad3fa06c0861" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.CinstructionTest, AssemblerTest" name="ParseDestInvalidValLowercase" />
+    </UnitTest>
+    <UnitTest name="ParseDestInvalidVal" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="1f54e70b-5fa5-2548-5dd7-ffb8a2f27389">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="AssemblerLib.dll" />
+      </DeploymentItems>
+      <Execution id="342abc07-b846-4f4a-8299-7c83989cfa20" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.CinstructionTest, AssemblerTest" name="ParseDestInvalidVal" />
+    </UnitTest>
+    <UnitTest name="ParseCompTestInvalid" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="edd8a708-f22f-d9d7-05ab-8b7660630bf9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="AssemblerLib.dll" />
+      </DeploymentItems>
+      <Execution id="fb17d0ad-cb51-400f-b75e-7d3b5231f19f" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.CinstructionTest, AssemblerTest" name="ParseCompTestInvalid" />
+    </UnitTest>
+    <UnitTest name="ParseJumpInvalidShortVal" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="704348f8-c521-d394-61cf-5d37dc9c9000">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="AssemblerLib.dll" />
+      </DeploymentItems>
+      <Execution id="2d9863cf-1a0b-4588-ae4c-e20f2d29a63c" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.CinstructionTest, AssemblerTest" name="ParseJumpInvalidShortVal" />
+    </UnitTest>
+    <UnitTest name="ParseDestInvalidLong" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="f662f0c7-2dee-6a0c-3fe7-c790e1e75161">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="AssemblerLib.dll" />
+      </DeploymentItems>
+      <Execution id="84ab68a0-a1e0-4d4f-8bcb-971893f63e33" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.CinstructionTest, AssemblerTest" name="ParseDestInvalidLong" />
+    </UnitTest>
+    <UnitTest name="CInstruction" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 06\assembler\assemblertest\bin\debug\assemblertest.dll" id="4b11b75b-082c-a96c-6ad6-72d9a816aa1e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5bef00eb-68ce-4bfd-bb85-8bf16c0c3f50" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\AssemblerTest\bin\Debug\AssemblerTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssemblerTest.AssemblerTests, AssemblerTest" name="CInstruction" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="24fe5760-225c-4cd3-9876-b5cb10f101dc" executionId="afa80e31-63d0-4d26-b812-f9ae29b07bfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b11b75b-082c-a96c-6ad6-72d9a816aa1e" executionId="3deb6d9b-9bee-4659-9fb5-0ff492a80763" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd6dad73-eac6-aaf9-83ef-a924092e07de" executionId="75e1d2e4-190a-4947-b12c-b6e70d62343d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a0f74d5-7aa8-6f11-fdc6-8fef300999de" executionId="b0430cac-3f15-4d4a-951e-d7d6bef035a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="704348f8-c521-d394-61cf-5d37dc9c9000" executionId="fc70deb8-d088-4583-a022-d311e7521195" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f54e70b-5fa5-2548-5dd7-ffb8a2f27389" executionId="cce1748f-ff3f-4d49-9e06-b23cfa6c0cbe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f337076f-4e2e-06ce-0e05-eabf6c063124" executionId="8a2e7fd1-eeb0-46ee-bb4e-c754cfdd610d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95405022-f83d-f9a8-744e-236e37904cac" executionId="c569fb22-e081-4c66-9b34-f08cbd56e4a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f662f0c7-2dee-6a0c-3fe7-c790e1e75161" executionId="419e7b34-f11d-424a-93ae-762cc9b20e4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edd8a708-f22f-d9d7-05ab-8b7660630bf9" executionId="ab940065-aefe-4e5a-b5f1-2dd74ffdfb26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11204abf-706d-312a-0711-738238b6c64e" executionId="92d8464f-873b-4e53-bd0b-721d8d13628c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="afa80e31-63d0-4d26-b812-f9ae29b07bfc" testId="24fe5760-225c-4cd3-9876-b5cb10f101dc" testName="AInstruction" computerName="GBCD7MDCD3J" duration="00:00:00.0406377" startTime="2010-07-05T14:37:09.5024463+01:00" endTime="2010-07-05T14:37:10.3461855+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3deb6d9b-9bee-4659-9fb5-0ff492a80763" testId="4b11b75b-082c-a96c-6ad6-72d9a816aa1e" testName="CInstruction" computerName="GBCD7MDCD3J" duration="00:00:17.3279032" startTime="2010-07-05T14:37:10.3461855+01:00" endTime="2010-07-05T14:37:27.6740887+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="75e1d2e4-190a-4947-b12c-b6e70d62343d" testId="dd6dad73-eac6-aaf9-83ef-a924092e07de" testName="ParseDestTest" computerName="GBCD7MDCD3J" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000+00:00" endTime="0001-01-01T00:00:00.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0430cac-3f15-4d4a-951e-d7d6bef035a6" testId="7a0f74d5-7aa8-6f11-fdc6-8fef300999de" testName="ParseJumpInvalidLongVal" computerName="GBCD7MDCD3J" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000+00:00" endTime="0001-01-01T00:00:00.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc70deb8-d088-4583-a022-d311e7521195" testId="704348f8-c521-d394-61cf-5d37dc9c9000" testName="ParseJumpInvalidShortVal" computerName="GBCD7MDCD3J" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000+00:00" endTime="0001-01-01T00:00:00.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="cce1748f-ff3f-4d49-9e06-b23cfa6c0cbe" testId="1f54e70b-5fa5-2548-5dd7-ffb8a2f27389" testName="ParseDestInvalidVal" computerName="GBCD7MDCD3J" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000+00:00" endTime="0001-01-01T00:00:00.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a2e7fd1-eeb0-46ee-bb4e-c754cfdd610d" testId="f337076f-4e2e-06ce-0e05-eabf6c063124" testName="ParseJump" computerName="GBCD7MDCD3J" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000+00:00" endTime="0001-01-01T00:00:00.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="c569fb22-e081-4c66-9b34-f08cbd56e4a8" testId="95405022-f83d-f9a8-744e-236e37904cac" testName="ParseDestInvalidValLowercase" computerName="GBCD7MDCD3J" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000+00:00" endTime="0001-01-01T00:00:00.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="419e7b34-f11d-424a-93ae-762cc9b20e4d" testId="f662f0c7-2dee-6a0c-3fe7-c790e1e75161" testName="ParseDestInvalidLong" computerName="GBCD7MDCD3J" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000+00:00" endTime="0001-01-01T00:00:00.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab940065-aefe-4e5a-b5f1-2dd74ffdfb26" testId="edd8a708-f22f-d9d7-05ab-8b7660630bf9" testName="ParseCompTestInvalid" computerName="GBCD7MDCD3J" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000+00:00" endTime="0001-01-01T00:00:00.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="92d8464f-873b-4e53-bd0b-721d8d13628c" testId="11204abf-706d-312a-0711-738238b6c64e" testName="ParseComp" computerName="GBCD7MDCD3J" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000+00:00" endTime="0001-01-01T00:00:00.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

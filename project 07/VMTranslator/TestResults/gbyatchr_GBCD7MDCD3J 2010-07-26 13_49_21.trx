@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4aeb52ae-393a-430e-b564-2e0e5477894d" name="gbyatchr@GBCD7MDCD3J 2010-07-26 13:49:21" runUser="INT\gbyatchr" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="fcbc8474-472a-4921-9a42-a6d13604a151">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\TestResults\gbyatchr_GBCD7MDCD3J 2010-07-26 13_49_21">
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\CodeWriter\bin\Debug\CodeWriter.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\Parser\bin\Debug\Parser.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VM\bin\Debug\VM.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-07-26T13:49:21.5145586+01:00" queuing="2010-07-26T13:49:27.4831940+01:00" start="2010-07-26T13:49:27.7644386+01:00" finish="2010-07-26T13:49:29.1550369+01:00" />
+  <TestDefinitions>
+    <UnitTest name="TestCommandPush" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 07\translatortests\bin\debug\translatortests.dll" id="a8c4ee52-5146-c2be-b7a5-6db033ba150d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="041026c0-2169-4fa4-bff1-ec8e494f17cc" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\TranslatorTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TranslatorTests.UnitTest1, TranslatorTests" name="TestCommandPush" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a8c4ee52-5146-c2be-b7a5-6db033ba150d" executionId="041026c0-2169-4fa4-bff1-ec8e494f17cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="041026c0-2169-4fa4-bff1-ec8e494f17cc" testId="a8c4ee52-5146-c2be-b7a5-6db033ba150d" testName="TestCommandPush" computerName="GBCD7MDCD3J" duration="00:00:00.1434084" startTime="2010-07-26T13:49:27.9050609+01:00" endTime="2010-07-26T13:49:29.0456640+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TranslatorTests.UnitTest1.TestCommandPush threw exception:  System.NotImplementedException: The method or operation is not implemented..</Message>
+          <StackTrace>    at VM.PushCommand.get_Assembly() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VM\MemoryCommand.cs:line 42
+   at TranslatorTests.UnitTest1.TestCommandPush() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\UnitTest1.cs:line 22
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

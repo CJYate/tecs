@@ -1,0 +1,11 @@
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\TranslatorTests.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\TranslatorTests.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\CodeWriter.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\Parser.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\VM.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\Parser.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\CodeWriter.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\VM.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\obj\Debug\TranslatorTests.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\obj\Debug\TranslatorTests.pdb

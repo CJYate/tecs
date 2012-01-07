@@ -1,0 +1,9 @@
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\bin\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\bin\Debug\ConsoleApplication1.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\bin\Debug\CodeWriter.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\bin\Debug\Parser.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\bin\Debug\Parser.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\bin\Debug\CodeWriter.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\obj\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\obj\Debug\ConsoleApplication1.pdb

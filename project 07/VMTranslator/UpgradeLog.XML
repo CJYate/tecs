@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="VMTranslator">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\VMTranslator.sln">
+</Property><Property Name="Date" Value="10 January 2011">
+</Property><Property Name="Time" Value="12:45">
+</Property></Properties><Event ErrorLevel="0" Project="VMTranslator" Source="VMTranslator.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VMTranslator" Source="VMTranslator.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Parser" Source="..\Parser\Parser.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Parser" Source="..\Parser\Parser.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CodeWriter" Source="..\CodeWriter\CodeWriter.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CodeWriter" Source="..\CodeWriter\CodeWriter.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VM" Source="..\VM\VM.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VM" Source="..\VM\VM.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TranslatorTests" Source="..\TranslatorTests\TranslatorTests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TranslatorTests" Source="..\TranslatorTests\TranslatorTests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="VMTranslator.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="VMTranslator.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VMTranslator" Source="VMTranslator.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Parser" Source="..\Parser\Parser.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CodeWriter" Source="..\CodeWriter\CodeWriter.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VM" Source="..\VM\VM.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="VMTranslator.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="VMTranslator.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="TranslatorTests" Source="..\TranslatorTests\TranslatorTests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

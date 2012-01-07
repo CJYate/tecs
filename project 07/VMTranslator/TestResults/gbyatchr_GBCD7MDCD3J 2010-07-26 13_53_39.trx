@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5258ed56-35ea-4ac2-9013-bf0e14e2cfa8" name="gbyatchr@GBCD7MDCD3J 2010-07-26 13:53:39" runUser="INT\gbyatchr" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="fcbc8474-472a-4921-9a42-a6d13604a151">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VMTranslator\TestResults\gbyatchr_GBCD7MDCD3J 2010-07-26 13_53_39">
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\CodeWriter\bin\Debug\CodeWriter.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\Parser\bin\Debug\Parser.dll" />
+      <DeploymentItem filename="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VM\bin\Debug\VM.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-07-26T13:53:39.3689827+01:00" queuing="2010-07-26T13:53:46.1657272+01:00" start="2010-07-26T13:53:46.3844730+01:00" finish="2010-07-26T13:54:40.1334410+01:00" />
+  <TestDefinitions>
+    <UnitTest name="TestCommandPush" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 07\translatortests\bin\debug\translatortests.dll" id="a8c4ee52-5146-c2be-b7a5-6db033ba150d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5a7016a1-db24-454a-9ad2-2d932bc6d2a2" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\TranslatorTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TranslatorTests.UnitTest1, TranslatorTests" name="TestCommandPush" />
+    </UnitTest>
+    <UnitTest name="TestCommandAdd" storage="c:\documents and settings\gbyatchr\my documents\tecs-software-suite-2.5\projects\project 07\translatortests\bin\debug\translatortests.dll" id="c39acf0b-0f18-e1df-bf19-0fefbaa237ec">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5e5d2045-fcc8-4e7b-be35-c74f4161c5b8" />
+      <TestMethod codeBase="C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\bin\Debug\TranslatorTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TranslatorTests.UnitTest1, TranslatorTests" name="TestCommandAdd" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a8c4ee52-5146-c2be-b7a5-6db033ba150d" executionId="5a7016a1-db24-454a-9ad2-2d932bc6d2a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c39acf0b-0f18-e1df-bf19-0fefbaa237ec" executionId="5e5d2045-fcc8-4e7b-be35-c74f4161c5b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5a7016a1-db24-454a-9ad2-2d932bc6d2a2" testId="a8c4ee52-5146-c2be-b7a5-6db033ba150d" testName="TestCommandPush" computerName="GBCD7MDCD3J" duration="00:00:51.1906130" startTime="2010-07-26T13:53:46.4625965+01:00" endTime="2010-07-26T13:54:38.4459734+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TranslatorTests.UnitTest1.TestCommandPush threw exception:  System.ArgumentException: Segment not initialised!.</Message>
+          <StackTrace>    at VM.PushCommand.get_Assembly() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VM\MemoryCommand.cs:line 45
+   at TranslatorTests.UnitTest1.TestCommandPush() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\UnitTest1.cs:line 22
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5e5d2045-fcc8-4e7b-be35-c74f4161c5b8" testId="c39acf0b-0f18-e1df-bf19-0fefbaa237ec" testName="TestCommandAdd" computerName="GBCD7MDCD3J" duration="00:00:01.6175565" startTime="2010-07-26T13:54:38.4615981+01:00" endTime="2010-07-26T13:54:40.0865669+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TranslatorTests.UnitTest1.TestCommandAdd threw exception:  System.NotImplementedException: The method or operation is not implemented..</Message>
+          <StackTrace>    at VM.AddCommand.get_Assembly() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\VM\ArithmeticCommands.cs:line 25
+   at TranslatorTests.UnitTest1.TestCommandAdd() in C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 07\TranslatorTests\UnitTest1.cs:line 54
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

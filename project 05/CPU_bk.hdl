@@ -1,0 +1,96 @@
+// This file is part of the materials accompanying the book 
+// "The Elements of Computing Systems" by Nisan and Schocken, 
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: projects/05/CPU.hdl
+
+/**
+ * The Central Processing unit (CPU).
+ * Consists of an ALU and a set of registers, designed to fetch and 
+ * execute instructions written in the Hack machine language.
+ * In particular, functions as follows:
+ * Executes the inputted instruction according to the Hack machine 
+ * language specification. The D and A in the language specification
+ * refer to CPU-resident registers, while M refers to the external
+ * memory location addressed by A, i.e. to Memory[A]. The inM input 
+ * holds the value of this location. If the current instruction needs 
+ * to write a value to M, the value is placed in outM, the address 
+ * of the target location is placed in the addressM output, and the 
+ * writeM control bit is asserted. (When writeM=0, any value may 
+ * appear in outM). The outM and writeM outputs are combinational: 
+ * they are affected instantaneously by the execution of the current 
+ * instruction. The addressM and pc outputs are clocked: although they 
+ * are affected by the execution of the current instruction, they commit 
+ * to their new values only in the next time unit. If reset=1 then the 
+ * CPU jumps to address 0 (i.e. sets pc=0 in next time unit) rather 
+ * than to the address resulting from executing the current instruction. 
+ */
+
+CHIP CPU {
+
+    IN  inM[16],         // M value input  (M = contents of RAM[A])
+        instruction[16], // Instruction for execution
+        reset;           // Signals whether to re-start the current
+                         // program (reset=1) or continue executing
+                         // the current program (reset=0).
+
+    OUT outM[16],        // M value output
+        writeM,          // Write into M? 
+        addressM[15],    // Address in data memory (of M)
+        pc[15];          // address of next instruction
+
+    PARTS:
+    // ** Decode **
+    // what sort of instruction
+    And(a=instruction[15], b=true, out=isCinstr);
+    Not(in=isCinstr, out=isAinstr); // (is this required?)
+    // what to operate on
+    And(a=instruction[12], b=isCinstr, out=Mpointer);
+    // ALU output storage instructions
+    And(a=instruction[05], b=isCinstr, out=storeToA);
+    And(a=instruction[04], b=isCinstr, out=storeToD);
+    And(a=instruction[03], b=isCinstr, out=storeToM);    
+    // ** Decode done **
+ 
+    // A 
+    // need to multiplex-16 the inputs along with ALU output
+    Mux16(a[15]=false, a[0..14]=instruction[0..14], b=aluOut16, sel=isCinstr, out=Ainput16);
+    // save result to A if it's an A instruction or the C instruction specifies 'store to A'
+    Or8Way(in[0]=isAinstr, in[1]=storeToA, in[2..7]=false, out=loadA);
+    Register(in=Ainput16, load=loadA, out=Aout16);
+    
+    // D 
+    // need to multiplex-16 the inputs along with ALU output!
+    DRegister(in=aluOut16, load=storeToD, out=Dout16);
+            
+    // select either A or M[A]
+    Mux16(a=Aout16, b=inM, sel=Mpointer, out=AorM16);
+    CallAlu(x=Dout16, y=AorM16, function=instruction[06..11], jumpCode=instruction[00..03], out=aluOut16, doJump=doJump);           
+   
+    // Calculation
+    ALU(x=Dout16, y=AorM16, zx=aluZx, nx=aluNx, zy=aluZy, ny=aluNy, f=aluF, no=aluNo,
+      out=aluOut16, zr=aluOutZero, ng=aluOutNegative);         
+
+    // whether to jump    
+    And(a=jumpLT, b=aluOutNegative, out=ltJumpTrue);
+    And(a=jumpEQ, b=aluOutZero, out=eqJumpTrue);
+    Not(in=aluOutNegative, out=aluOutPositive);
+    And(a=jumpGT, b=aluOutPositive, out=gtJumpTrue);
+    Or8Way(in[0]=ltJumpTrue, in[1]=eqJumpTrue, in[2]=gtJumpTrue, in[3..7]=false, out=doJump);
+
+      
+      
+    // M
+    // writeM == storeToM
+    Or(a=storeToM, b=false, out=writeM);
+    Or16(a=aluOut16, b=false, out=outM);
+    Or16(a=Aout16, b=false, out[15]=false, out[0..14]=addressM);
+    
+    // PC   
+    // increment PC value
+    Inc16(in=pcCurrent16, out=pcIncOut16);
+    
+    // calculate next PC
+    Mux4Way16(a=pcIncOut16, b=Aout16, c=false, d=false, sel[1]=reset, sel[0]=doJump, out=pcLoadValue16);     
+    Register(in=pcLoadValue16, load=true, out=pcCurrent16);
+    Or16(a=pcCurrent16, b=false, out[15]=false, out[0..14]=pc);
+}

@@ -1,0 +1,34 @@
+// This file is part of the materials accompanying the book 
+// "The Elements of Computing Systems" by Nisan and Schocken, 
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: projects/03/1/Register.hdl
+
+/**
+ * 16-Bit register. 
+ * If load[t-1]=1 then out[t] = in[t-1]
+ * else out does not change (out[t] = out[t-1])
+ */
+
+CHIP Register {
+
+    IN  in[16], load;
+    OUT out[16];
+
+    PARTS:
+    Bit(in=in[00], load=load, out=out[00]);
+    Bit(in=in[01], load=load, out=out[01]);
+    Bit(in=in[02], load=load, out=out[02]);
+    Bit(in=in[03], load=load, out=out[03]);
+    Bit(in=in[04], load=load, out=out[04]);
+    Bit(in=in[05], load=load, out=out[05]);
+    Bit(in=in[06], load=load, out=out[06]);
+    Bit(in=in[07], load=load, out=out[07]);
+    Bit(in=in[08], load=load, out=out[08]);
+    Bit(in=in[09], load=load, out=out[09]);
+    Bit(in=in[10], load=load, out=out[10]);
+    Bit(in=in[11], load=load, out=out[11]);
+    Bit(in=in[12], load=load, out=out[12]);
+    Bit(in=in[13], load=load, out=out[13]);
+    Bit(in=in[14], load=load, out=out[14]);
+    Bit(in=in[15], load=load, out=out[15]);
+}

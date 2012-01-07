@@ -1,0 +1,7 @@
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\Assemble\bin\Debug\Assemble.exe
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\Assemble\bin\Debug\Assemble.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\Assemble\bin\Debug\AssemblerLib.dll
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\Assemble\bin\Debug\AssemblerLib.pdb
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\Assemble\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\Assemble\obj\Debug\Assemble.exe
+C:\Documents and Settings\gbyatchr\My Documents\tecs-software-suite-2.5\Projects\project 06\Assembler\Assemble\obj\Debug\Assemble.pdb

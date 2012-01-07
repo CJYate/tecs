@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblerLib", "AssemblerLib\AssemblerLib.csproj", "{4E0A788F-CA6D-4863-B26E-D5AFDB01D838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblerTest", "AssemblerTest\AssemblerTest.csproj", "{427BD9D1-9D6C-44ED-9215-0B52847342F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58A2A632-59D4-4AFF-80A6-DD037E96015F}"
+	ProjectSection(SolutionItems) = preProject
+		Assembler.vsmdi = Assembler.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assemble", "Assemble\Assemble.csproj", "{39031C18-DC9F-4DB8-97DD-8172D43DEFD2}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Assembler.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E0A788F-CA6D-4863-B26E-D5AFDB01D838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0A788F-CA6D-4863-B26E-D5AFDB01D838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0A788F-CA6D-4863-B26E-D5AFDB01D838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0A788F-CA6D-4863-B26E-D5AFDB01D838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427BD9D1-9D6C-44ED-9215-0B52847342F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427BD9D1-9D6C-44ED-9215-0B52847342F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427BD9D1-9D6C-44ED-9215-0B52847342F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427BD9D1-9D6C-44ED-9215-0B52847342F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39031C18-DC9F-4DB8-97DD-8172D43DEFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39031C18-DC9F-4DB8-97DD-8172D43DEFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39031C18-DC9F-4DB8-97DD-8172D43DEFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39031C18-DC9F-4DB8-97DD-8172D43DEFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
